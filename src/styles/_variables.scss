@@ -21,3 +21,18 @@
   $color4 : #F0FDFF;
 
   $gradient-bg: linear-gradient(to right, $color1, $color2, $color3, $color4);
+
+
+
+  $deepPurple1 : #130428;
+  $deepPurple2 : #251043;
+  $deepPurple3 : #38126D;
+  $deepPurple4 : #261045;
+  $deepPurple5 : #190634;
+
+  $gradientBgCards: linear-gradient(108deg,
+      $deepPurple1 7%,
+      $deepPurple2 34%,
+      $deepPurple3 57%,
+      $deepPurple4 85%,
+      $deepPurple5 100%);

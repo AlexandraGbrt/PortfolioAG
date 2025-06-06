@@ -22,13 +22,13 @@ const CardProjet = ({ title, description, image, onClick }) => {
       sx={{
         maxWidth: 350,
         width: 350,
-        height: 260,
+        // height: 260,
         borderRadius: 3,
         boxShadow: 3,
         m: 1,
         color: "#fff",
         background: gradientBgCards,
-        border: "2px solid white",
+        // border: "2px solid white",
       }}
     >
       {/* CardActionArea permet de rendre toute la carte cliquable */}
@@ -38,7 +38,7 @@ const CardProjet = ({ title, description, image, onClick }) => {
           height="180"
           image={image}
           alt={`Image du projet ${title}`}
-          sx={{ borderRadius: 3, objectFit: "cover" }}
+          sx={{ borderRadius: 3, objectFit: "cover", height: 250 }}
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="div">

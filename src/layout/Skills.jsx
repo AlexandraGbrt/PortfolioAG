@@ -1,4 +1,5 @@
 import skills from "../data/skills.json";
+import Banner from "../components/Banner";
 
 const Skills = () => {
   return (
@@ -20,6 +21,8 @@ const Skills = () => {
           </li>
         ))}
       </ul>
+
+      <Banner text="DEVELOPPEUSE REACT - FRONTEND - BACKEND - JAVASCRIPT - HTML - CSS - SWAGGER" />
     </section>
   );
 };

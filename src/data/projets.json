@@ -8,20 +8,20 @@
     "skills": []
   },
   {
+    "title": "Qwenta by Menu maker",
+    "description": "Gestion de projet",
+    "image": "/images/qwentaSite.png",
+    "github": "",
+    "details": "",
+    "skills": []
+  },
+  {
     "title": "ArgentBank",
     "description": "Une application bancaire avec React",
     "image": "/images/ArgentBank.webp",
     "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
     "details": "",
     "skills": ["React", "Mongodb"]
-  },
-  {
-    "title": "Qwenta by Menu maker",
-    "description": "Gestion de projet",
-    "image": "/images/Qwenta.webp",
-    "github": "",
-    "details": "",
-    "skills": []
   },
   {
     "title": "724events",
@@ -34,7 +34,7 @@
   {
     "title": "Nina Carducci - Photographe",
     "description": "Référencement SEO",
-    "image": "/images/NinaC.webp",
+    "image": "/images/ninaSite.png",
     "github": "https://github.com/AlexandraGbrt/NinaCarducci",
     "details": "",
     "skills": []
@@ -42,7 +42,7 @@
   {
     "title": "Kasa",
     "description": "Une application de location immobilière avec React",
-    "image": "/images/kasa.webp",
+    "image": "/images/kasaSite2.png",
     "github": "https://github.com/AlexandraGbrt/ProjetKasa",
     "details": "",
     "skills": []
@@ -50,7 +50,7 @@
   {
     "title": "Sophie Bluel - Architecte",
     "description": "Une page web dynamique avec JavaScript",
-    "image": "/images/SophieB.webp",
+    "image": "/images/sophieSite.png",
     "github": "https://github.com/AlexandraGbrt/SophieBluel",
     "details": "",
     "skills": ""
@@ -58,7 +58,7 @@
   {
     "title": "Oh my food",
     "description": "Une interface mobile avec des animations CSS",
-    "image": "/images/Ohmyfood.webp",
+    "image": "/images/ohmySite.png",
     "github": "https://github.com/AlexandraGbrt/ohmyfood",
     "details": "",
     "skills": []
@@ -66,7 +66,7 @@
   {
     "title": "Booki",
     "description": "Une page d'accueil avec HTML et CSS",
-    "image": "/images/Booki.webp",
+    "image": "/images/bookiSite.png",
     "github": "",
     "details": "",
     "skills": []
