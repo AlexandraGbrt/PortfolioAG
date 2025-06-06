@@ -1,0 +1,19 @@
+[
+  { "name": "HTML", "icon": "html.webp" },
+  { "name": "CSS", "icon": "css.png" },
+  { "name": "SASS", "icon": "sass.png" },
+  { "name": "JavaScript", "icon": "js.png" },
+  { "name": "React", "icon": "react.png" },
+  { "name": "Vite", "icon": "vite.png" },
+  { "name": "figma", "icon": "figma.png" },
+
+  { "name": "Git", "icon": "git.png" },
+  { "name": "Github", "icon": "github.png" },
+
+  { "name": "Node", "icon": "node.png" },
+  { "name": "Agile", "icon": "agile.webp" },
+
+  { "name": "Mongodb", "icon": "mongoDB.png" },
+  { "name": "chrome", "icon": "chrome.webp" },
+  { "name": "feedly", "icon": "feedly.png" }
+]

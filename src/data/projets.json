@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "Une application bancaire avec React",
+    "image": "/images/portfolio.webp",
+    "github": "",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "ArgentBank",
+    "description": "Une application bancaire avec React",
+    "image": "/images/ArgentBank.webp",
+    "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
+    "details": "",
+    "skills": ["React", "Mongodb"]
+  },
+  {
+    "title": "Qwenta by Menu maker",
+    "description": "Gestion de projet",
+    "image": "/images/Qwenta.webp",
+    "github": "",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "724events",
+    "description": "Débuggage du site d'une agence évènementielle ",
+    "image": "/images/724.webp",
+    "github": "https://github.com/AlexandraGbrt/724Events",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "Nina Carducci - Photographe",
+    "description": "Référencement SEO",
+    "image": "/images/NinaC.webp",
+    "github": "https://github.com/AlexandraGbrt/NinaCarducci",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "Kasa",
+    "description": "Une application de location immobilière avec React",
+    "image": "/images/kasa.webp",
+    "github": "https://github.com/AlexandraGbrt/ProjetKasa",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "Sophie Bluel - Architecte",
+    "description": "Une page web dynamique avec JavaScript",
+    "image": "/images/SophieB.webp",
+    "github": "https://github.com/AlexandraGbrt/SophieBluel",
+    "details": "",
+    "skills": ""
+  },
+  {
+    "title": "Oh my food",
+    "description": "Une interface mobile avec des animations CSS",
+    "image": "/images/Ohmyfood.webp",
+    "github": "https://github.com/AlexandraGbrt/ohmyfood",
+    "details": "",
+    "skills": []
+  },
+  {
+    "title": "Booki",
+    "description": "Une page d'accueil avec HTML et CSS",
+    "image": "/images/Booki.webp",
+    "github": "",
+    "details": "",
+    "skills": []
+  }
+]
