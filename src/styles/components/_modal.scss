@@ -23,15 +23,30 @@
         box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
         animation: fadeIn 0.2s ease-out;
 
-        // h2 {
-        //     font-size: 24px;
-        //     margin-bottom: 16px;
-        // }
+        h3 {
+            text-transform: uppercase;
+        }
 
         // p {
         //     font-size: 16px;
         //     margin-bottom: 24px;
         // }
+
+        .tools {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            max-width: 100%;
+        }
+
+        .tools img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            user-select: none;
+        }
 
         .modal-actions {
             display: flex;

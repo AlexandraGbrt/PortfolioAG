@@ -1,19 +1,11 @@
-import MyButton from "../components/Button";
+// import MyButton from "../components/Button";
+import ContactForm from "../components/Form";
 
 const Contact = () => {
   return (
     <section id="contact">
       <h2>Contact</h2>
-      <p>N’hésitez pas à me contacter via ce formulaire ou sur mes réseaux !</p>
-      <form action="mailto:tonemail@example.com" method="POST">
-        <input type="text" placeholder="Votre nom" required />
-        <input type="email" placeholder="Votre email" required />
-        <textarea placeholder="Votre message" required></textarea>
-        {/* <button type="submit" id="btn">
-          Envoyer
-        </button> */}
-        <MyButton type="submit">Envoyer</MyButton>
-      </form>
+      <ContactForm />
       <div>
         <a href="https://github.com/AlexandraGbrt" target="_blank">
           GitHub

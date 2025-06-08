@@ -1,6 +1,7 @@
-@import 'variables';
-@import 'base';
-@import 'layout';
-@import './components/banner';
-@import './components/cards';
-@import './components/modal';
+@use 'variables' as *;
+@use 'base';
+@use 'layout';
+@use './components/banner';
+@use './components/cards';
+@use './components/form';
+@use './components/modal';

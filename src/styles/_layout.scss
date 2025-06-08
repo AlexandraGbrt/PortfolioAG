@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables' as *;
 
 section,
 header,
@@ -46,6 +46,13 @@ section {
 
 }
 
+#projects {
+    .projet {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 #skills {
 
     position: relative;
@@ -78,21 +85,17 @@ section {
 #contact {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    // justify-content: end;
+    align-items: flex-end;
+    gap: 20px;
 
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 5px;
+    h2 {
+        font-size: 40px;
+    }
 
-        input,
-        textarea {
-            width: 200px;
+    a {
+        text-transform: uppercase;
+        padding: 10px;
 
-            border: none;
-            border-radius: 6px;
-        }
     }
 }

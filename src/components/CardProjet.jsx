@@ -1,4 +1,3 @@
-// import skillsData from "../data/skills.json";
 import React, { useState } from "react";
 import Modal from "./ModalProjet";
 
@@ -21,19 +20,6 @@ const CardProjet = ({ title, description, image, details, tools = [] }) => {
 
         <div className="card-content">
           <p>{description}</p>
-
-          <div className="tools">
-            {tools.map((tool, i) => (
-              <img
-                key={i}
-                src={`/icons/${tool.icon}`}
-                alt={tool.name}
-                title={tool.name}
-                width={24}
-                height={24}
-              />
-            ))}
-          </div>
         </div>
       </div>
 
@@ -42,6 +28,7 @@ const CardProjet = ({ title, description, image, details, tools = [] }) => {
         onClose={() => setOpen(false)}
         title={title}
         details={details}
+        tools={tools}
       />
     </>
   );

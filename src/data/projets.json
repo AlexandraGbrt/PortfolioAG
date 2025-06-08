@@ -1,17 +1,16 @@
 [
   {
     "title": "Portfolio",
-    "description": "Une application bancaire avec React",
+    "description": "Création d'un portfolio",
     "image": "/images/portfolio.webp",
     "github": "",
     "details": "",
     "tools": [
-      { "name": "SASS", "icon": "sass.png" },
-      { "name": "JavaScript", "icon": "js.png" },
       { "name": "React", "icon": "react.png" },
       { "name": "Vite", "icon": "vite.png" },
+      { "name": "MUI", "icon": "MUI.png" },
+      { "name": "SASS", "icon": "sass.png" },
       { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" },
       { "name": "figma", "icon": "figma.png" }
     ]
   },
@@ -24,20 +23,20 @@
     "tools": [
       { "name": "feedly", "icon": "feedly.png" },
       { "name": "Agile", "icon": "agile.webp" },
-      { "name": "figma", "icon": "figma.png" }
+      { "name": "figma", "icon": "figma.png" },
+      { "name": "notion", "icon": "notion.png" }
     ]
   },
   {
     "title": "ArgentBank",
-    "description": "Une application bancaire avec React",
+    "description": "Application bancaire avec React",
     "image": "/images/ArgentBank.webp",
     "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
     "details": "",
     "tools": [
-      { "name": "JavaScript", "icon": "js.png" },
       { "name": "React", "icon": "react.png" },
+      { "name": "Reactrouter", "icon": "reactrouter.png" },
       { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" },
       { "name": "Node", "icon": "node.png" },
       { "name": "Mongodb", "icon": "mongoDB.png" },
       { "name": "figma", "icon": "figma.png" }
@@ -52,8 +51,8 @@
     "tools": [
       { "name": "chrome", "icon": "chrome.webp" },
       { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" },
-      { "name": "JavaScript", "icon": "js.png" }
+      { "name": "JavaScript", "icon": "js.png" },
+      { "name": "Yarn", "icon": "yarn.png" }
     ]
   },
   {
@@ -64,69 +63,62 @@
     "details": "",
     "tools": [
       { "name": "chrome", "icon": "chrome.webp" },
-      { "name": "HTML", "icon": "html.webp" },
+      { "name": "HTML", "icon": "html.png" },
       { "name": "CSS", "icon": "css.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" }
+      { "name": "Git", "icon": "git.png" }
     ]
   },
   {
     "title": "Kasa",
-    "description": "Une application de location immobilière avec React",
+    "description": "Application de location immobilière avec React",
     "image": "/images/kasaSite2.png",
     "github": "https://github.com/AlexandraGbrt/ProjetKasa",
     "details": "",
     "tools": [
-      { "name": "JavaScript", "icon": "js.png" },
       { "name": "React", "icon": "react.png" },
+      { "name": "Reactrouter", "icon": "reactrouter.png" },
       { "name": "Vite", "icon": "vite.png" },
       { "name": "SASS", "icon": "sass.png" },
       { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" },
-      { "name": "chrome", "icon": "chrome.webp" },
       { "name": "figma", "icon": "figma.png" }
     ]
   },
   {
     "title": "Sophie Bluel",
-    "description": "Une page web dynamique avec JavaScript",
+    "description": "Page web dynamique avec JavaScript",
     "image": "/images/sophieSite.png",
     "github": "https://github.com/AlexandraGbrt/SophieBluel",
     "details": "",
     "tools": [
-      { "name": "HTML", "icon": "html.webp" },
+      { "name": "HTML", "icon": "html.png" },
       { "name": "CSS", "icon": "css.png" },
       { "name": "JavaScript", "icon": "js.png" },
-      { "name": "chrome", "icon": "chrome.webp" },
       { "name": "figma", "icon": "figma.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" }
+      { "name": "Git", "icon": "git.png" }
     ]
   },
   {
     "title": "Oh my food",
-    "description": "Une interface mobile avec des animations CSS",
+    "description": "Interface mobile avec des animations CSS",
     "image": "/images/ohmySite.png",
     "github": "https://github.com/AlexandraGbrt/ohmyfood",
     "details": "",
     "tools": [
-      { "name": "HTML", "icon": "html.webp" },
+      { "name": "HTML", "icon": "html.png" },
       { "name": "CSS", "icon": "css.png" },
       { "name": "SASS", "icon": "sass.png" },
       { "name": "figma", "icon": "figma.png" },
-      { "name": "chrome", "icon": "chrome.webp" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "Github", "icon": "github.png" }
+      { "name": "Git", "icon": "git.png" }
     ]
   },
   {
     "title": "Booki",
-    "description": "Une page d'accueil avec HTML et CSS",
+    "description": "Page d'accueil avec HTML et CSS",
     "image": "/images/bookiSite.png",
     "github": "",
     "details": "",
     "tools": [
-      { "name": "HTML", "icon": "html.webp" },
+      { "name": "HTML", "icon": "html.png" },
       { "name": "CSS", "icon": "css.png" },
       { "name": "figma", "icon": "figma.png" }
     ]

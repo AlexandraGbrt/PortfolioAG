@@ -1,4 +1,4 @@
-@use '../variables';
+@use '../variables' as *;
 
 // CARD PROJET 
 
@@ -7,7 +7,9 @@
     border-radius: 12px;
     overflow: hidden;
     background: transparent;
-    box-shadow: 0 4px 12px rgba(245, 243, 243, 0.3);
+    // box-shadow: 0 4px 12px rgba(245, 243, 243, 0.3);
+    border: 2px solid white;
+    box-shadow: 0 0 12px 0 white;
     margin: 8px;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -62,22 +64,10 @@
         background-color: transparent;
 
         p {
-            margin: 0 0 8px 0;
+            margin: 0;
+            padding-bottom: 0;
         }
 
-        .tools {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            align-items: center;
-            max-width: 100%;
-        }
 
-        .tools img {
-            width: 24px;
-            height: 24px;
-            object-fit: contain;
-            user-select: none;
-        }
     }
 }
