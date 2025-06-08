@@ -15,6 +15,7 @@ const MyButton = ({ children, href, type = "button", onClick, ...props }) => {
     fontWeight: 600,
     marginTop: "20px",
     textTransform: "none",
+    cursor: "pointer",
     // "&:hover": {
     //   background: `linear-gradient(to right, ${colorEnd}, ${colorStart})`,
     // },

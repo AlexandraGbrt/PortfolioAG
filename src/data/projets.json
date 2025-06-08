@@ -5,15 +5,27 @@
     "image": "/images/portfolio.webp",
     "github": "",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "SASS", "icon": "sass.png" },
+      { "name": "JavaScript", "icon": "js.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Vite", "icon": "vite.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" },
+      { "name": "figma", "icon": "figma.png" }
+    ]
   },
   {
     "title": "Qwenta by Menu maker",
     "description": "Gestion de projet",
-    "image": "/images/qwentaSite.png",
+    "image": "/images/4.png",
     "github": "",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "feedly", "icon": "feedly.png" },
+      { "name": "Agile", "icon": "agile.webp" },
+      { "name": "figma", "icon": "figma.png" }
+    ]
   },
   {
     "title": "ArgentBank",
@@ -21,23 +33,42 @@
     "image": "/images/ArgentBank.webp",
     "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
     "details": "",
-    "skills": ["React", "Mongodb"]
+    "tools": [
+      { "name": "JavaScript", "icon": "js.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" },
+      { "name": "Node", "icon": "node.png" },
+      { "name": "Mongodb", "icon": "mongoDB.png" },
+      { "name": "figma", "icon": "figma.png" }
+    ]
   },
   {
     "title": "724events",
     "description": "Débuggage du site d'une agence évènementielle ",
-    "image": "/images/724.webp",
+    "image": "/images/1.png",
     "github": "https://github.com/AlexandraGbrt/724Events",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "chrome", "icon": "chrome.webp" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" },
+      { "name": "JavaScript", "icon": "js.png" }
+    ]
   },
   {
-    "title": "Nina Carducci - Photographe",
+    "title": "Nina Carducci",
     "description": "Référencement SEO",
     "image": "/images/ninaSite.png",
     "github": "https://github.com/AlexandraGbrt/NinaCarducci",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "chrome", "icon": "chrome.webp" },
+      { "name": "HTML", "icon": "html.webp" },
+      { "name": "CSS", "icon": "css.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" }
+    ]
   },
   {
     "title": "Kasa",
@@ -45,15 +76,32 @@
     "image": "/images/kasaSite2.png",
     "github": "https://github.com/AlexandraGbrt/ProjetKasa",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "JavaScript", "icon": "js.png" },
+      { "name": "React", "icon": "react.png" },
+      { "name": "Vite", "icon": "vite.png" },
+      { "name": "SASS", "icon": "sass.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" },
+      { "name": "chrome", "icon": "chrome.webp" },
+      { "name": "figma", "icon": "figma.png" }
+    ]
   },
   {
-    "title": "Sophie Bluel - Architecte",
+    "title": "Sophie Bluel",
     "description": "Une page web dynamique avec JavaScript",
     "image": "/images/sophieSite.png",
     "github": "https://github.com/AlexandraGbrt/SophieBluel",
     "details": "",
-    "skills": ""
+    "tools": [
+      { "name": "HTML", "icon": "html.webp" },
+      { "name": "CSS", "icon": "css.png" },
+      { "name": "JavaScript", "icon": "js.png" },
+      { "name": "chrome", "icon": "chrome.webp" },
+      { "name": "figma", "icon": "figma.png" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" }
+    ]
   },
   {
     "title": "Oh my food",
@@ -61,7 +109,15 @@
     "image": "/images/ohmySite.png",
     "github": "https://github.com/AlexandraGbrt/ohmyfood",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "HTML", "icon": "html.webp" },
+      { "name": "CSS", "icon": "css.png" },
+      { "name": "SASS", "icon": "sass.png" },
+      { "name": "figma", "icon": "figma.png" },
+      { "name": "chrome", "icon": "chrome.webp" },
+      { "name": "Git", "icon": "git.png" },
+      { "name": "Github", "icon": "github.png" }
+    ]
   },
   {
     "title": "Booki",
@@ -69,6 +125,10 @@
     "image": "/images/bookiSite.png",
     "github": "",
     "details": "",
-    "skills": []
+    "tools": [
+      { "name": "HTML", "icon": "html.webp" },
+      { "name": "CSS", "icon": "css.png" },
+      { "name": "figma", "icon": "figma.png" }
+    ]
   }
 ]

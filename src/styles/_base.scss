@@ -28,11 +28,12 @@ h1,
 h2,
 p {
     margin: 0;
+
 }
 
 h1 {
     font-size: 50px;
-    font-family: 'Josefin Sans';
+    // font-family: 'Josefin Sans';
 }
 
 h2 {
@@ -41,6 +42,12 @@ h2 {
     display: inline-block;
     color: transparent;
     font-size: 30px;
+    // font-family: 'Inter';
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display';
 }
 
 // #title {
@@ -48,7 +55,8 @@ h2 {
 // }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'Josefin Sans';
 
 }
 
