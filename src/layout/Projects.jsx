@@ -12,7 +12,7 @@ const Projects = () => {
             key={index}
             title={projet.title}
             description={projet.description}
-            image={projet.image}
+            cover={projet.cover}
             onClick={() => console.log(`Tu as cliqué sur ${projet.title}`)}
             details={projet.details}
             tools={projet.tools}

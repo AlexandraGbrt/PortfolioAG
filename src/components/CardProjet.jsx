@@ -4,7 +4,7 @@ import Modal from "./ModalProjet";
 const CardProjet = ({
   title,
   description,
-  image,
+  cover,
   details,
   github,
   tools = [],
@@ -16,8 +16,8 @@ const CardProjet = ({
       <div className="card-projet" onClick={() => setOpen(true)}>
         <div className="card-image-container">
           <img
-            src={image}
-            alt={`Image du projet ${title}`}
+            src={cover}
+            alt={`Cover du projet ${title}`}
             className="card-image"
           />
           <div className="overlay">{/* <h3>{title}</h3> */}</div>
