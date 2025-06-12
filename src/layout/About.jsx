@@ -3,7 +3,7 @@ import MyButton from "../components/Button";
 const About = () => {
   return (
     <section id="about">
-      <h1>Hi, I'm Alexandra </h1>
+      <h1>Alexandra, </h1>
       <h2>Intégrateur Web.</h2>
       <p>
         En formation chez Openclassrooms où j’ai appris à créer des sites web

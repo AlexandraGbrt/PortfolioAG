@@ -4,17 +4,13 @@
   { "name": "SASS", "icon": "sass.png" },
   { "name": "JavaScript", "icon": "js.png" },
   { "name": "React", "icon": "react.png" },
-  { "name": "Vite", "icon": "vite.png" },
   { "name": "figma", "icon": "figma.png" },
 
   { "name": "Git", "icon": "git.png" },
-  { "name": "Github", "icon": "github.png" },
 
   { "name": "Node", "icon": "node.png" },
   { "name": "MUI", "icon": "MUI.png" },
 
-  { "name": "Mongodb", "icon": "mongoDB.png" },
-  { "name": "chrome", "icon": "chrome.webp" },
-  { "name": "feedly", "icon": "feedly.png" },
+  { "name": "Mongodb", "icon": "MongoDB.png" },
   { "name": "Notion", "icon": "notion.png" }
 ]

@@ -1,7 +1,7 @@
 import React from "react";
 import MyButton from "../components/Button";
 
-const Modal = ({ open, onClose, title, details, tools = [] }) => {
+const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
   if (!open) return null;
 
   return (
@@ -10,7 +10,11 @@ const Modal = ({ open, onClose, title, details, tools = [] }) => {
       <div className="modal-container">
         <div className="modal-content">
           <h3>{title}</h3>
+
+          <p>{details}</p>
+
           <div className="tools">
+            <p>Compétences utilisées :</p>
             {tools.map((tool, i) => (
               <img
                 key={i}
@@ -22,10 +26,11 @@ const Modal = ({ open, onClose, title, details, tools = [] }) => {
               />
             ))}
           </div>
-          <p>{details}</p>
-
           <div className="modal-actions">
-            {/* <button onClick={onClose}>Fermer</button> */}
+            <a href={github} target="_blank">
+              GitHub du projet
+            </a>
+
             <MyButton onClick={onClose}>Fermer</MyButton>
           </div>
         </div>

@@ -22,7 +22,7 @@ const Skills = () => {
         ))}
       </ul>
 
-      <Banner text="DEVELOPPEUSE REACT - FRONTEND - BACKEND - JAVASCRIPT - HTML - CSS - SWAGGER" />
+      <Banner text="• HTML • CSS • SASS • JS • REACT • GIT • MATERIAL UI • MONGODB • SWAGGER/API •" />
     </section>
   );
 };

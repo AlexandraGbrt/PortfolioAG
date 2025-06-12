@@ -41,8 +41,9 @@ h2 {
     background-clip: text;
     display: inline-block;
     color: transparent;
-    font-size: 30px;
+    font-size: 35px;
     // font-family: 'Inter';
+    margin-bottom: 30px;
 }
 
 h1,
@@ -54,9 +55,10 @@ h2 {
 //     margin: 40px auto 40px 410px;
 // }
 
-p {
+p,
+a {
     font-size: 14px;
-    font-family: 'Josefin Sans';
+
 
 }
 

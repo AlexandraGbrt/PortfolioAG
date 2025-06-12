@@ -10,7 +10,7 @@ const Header = () => {
             <a href="#projects">PROJETS</a>
           </li>
           <li>
-            <a href="#skills">SKILLS</a>
+            <a href="#skills">COMPÉTENCES</a>
           </li>
           <li>
             <a href="#contact">CONTACT</a>

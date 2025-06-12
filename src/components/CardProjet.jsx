@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import Modal from "./ModalProjet";
 
-const CardProjet = ({ title, description, image, details, tools = [] }) => {
+const CardProjet = ({
+  title,
+  description,
+  image,
+  details,
+  github,
+  tools = [],
+}) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -13,13 +20,12 @@ const CardProjet = ({ title, description, image, details, tools = [] }) => {
             alt={`Image du projet ${title}`}
             className="card-image"
           />
-          <div className="overlay">
-            <h3>{title}</h3>
-          </div>
+          <div className="overlay">{/* <h3>{title}</h3> */}</div>
         </div>
 
         <div className="card-content">
           <p>{description}</p>
+          {/* <a href={github}>GitHub du projet</a> */}
         </div>
       </div>
 
@@ -29,6 +35,7 @@ const CardProjet = ({ title, description, image, details, tools = [] }) => {
         title={title}
         details={details}
         tools={tools}
+        github={github}
       />
     </>
   );

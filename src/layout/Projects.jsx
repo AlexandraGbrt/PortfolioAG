@@ -16,6 +16,7 @@ const Projects = () => {
             onClick={() => console.log(`Tu as cliqué sur ${projet.title}`)}
             details={projet.details}
             tools={projet.tools}
+            github={projet.github}
           />
         ))}
       </div>

@@ -18,6 +18,7 @@ header {
 section {
     max-width: 1200px;
     width: 100%;
+    margin-bottom: 70px;
 }
 
 #about {
@@ -43,6 +44,9 @@ section {
         pointer-events: none;
     }
 
+    p {
+        width: 60%;
+    }
 
 }
 
@@ -50,6 +54,8 @@ section {
     .projet {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 30px;
     }
 }
 
@@ -76,6 +82,13 @@ section {
         pointer-events: none;
     }
 
+    ul {
+
+        li img {
+            width: 40px;
+        }
+    }
+
 
 }
 
@@ -88,6 +101,8 @@ section {
     // justify-content: end;
     align-items: flex-end;
     gap: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
 
     h2 {
         font-size: 40px;
