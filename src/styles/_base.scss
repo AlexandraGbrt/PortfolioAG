@@ -1,16 +1,24 @@
 @use 'variables' as *;
 
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden; // évite le scroll horizontal
+}
 
 body {
     margin: auto;
-    max-width: 1440px;
+    // max-width: 1440px;
+    width: 100%;
     font-family: 'Josefin Sans', 'Inter', sans-serif;
     line-height: 1.5;
     font-weight: 400;
     background-color: $color-background;
     color: $color-text;
-    display: flex;
-    justify-content: center;
 }
 
 a {

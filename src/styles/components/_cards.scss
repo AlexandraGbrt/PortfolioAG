@@ -3,7 +3,8 @@
 // CARD PROJET 
 
 .card-projet {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 12px;
     overflow: hidden;
     background: transparent;
@@ -73,5 +74,11 @@
         }
 
 
+    }
+
+    @media (max-width: 768px) {
+        width: 100%; // La carte prendra toute la largeur du container
+        max-width: 350px; // Pour ne pas dépasser 350px
+        margin: 8px auto; // Centrer horizontalement
     }
 }

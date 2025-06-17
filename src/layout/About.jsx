@@ -3,14 +3,16 @@ import MyButton from "../components/Button";
 const About = () => {
   return (
     <section id="about">
-      <h1>Alexandra, </h1>
-      <h2>Intégrateur Web.</h2>
+      <h1>Alexandra Gaubert, </h1>
+      <h2>Développeuse Web.</h2>
       <p>
-        En formation chez Openclassrooms où j’ai appris à créer des sites web
-        dynamiques et performants. J’ai des compétences solides en HTML, CSS,
-        JavaScript, React et Redux, ainsi qu’en SEO, gestion de projet et bases
-        de données. J’aime concevoir des interfaces intuitives et accessibles,
-        et je suis toujours curieux d’apprendre de nouvelles technologies.
+        En formation chez OpenClassrooms, j’ai développé des compétences solides
+        en HTML, CSS, JavaScript, React et Redux, ainsi que des connaissances en
+        back-end avec Python et bases de données. Passionnée par la création
+        d’interfaces intuitives, accessibles et performantes, je présente ici
+        mes projets réalisés, où design et fonctionnalité se rencontrent.
+        Curieuse et motivée, je continue d’explorer de nouvelles technologies
+        pour évoluer vers le développement full stack.
       </p>
       {/* <button id="btn">Contact</button> */}
       <MyButton href="#contact">Contact</MyButton>

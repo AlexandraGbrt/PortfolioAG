@@ -1,18 +1,15 @@
 [
   {
-    "title": "Portfolio",
-    "description": "Création d'un portfolio",
-    "cover": "/logo/portfolio.webp",
+    "title": "API Arcane",
+    "description": "Création d'une API",
+    "cover": "/logo/arcane.png",
     "images": [],
-    "github": "",
-    "details": "J’ai développé et déployé un portfolio professionnel avec React et Sass, intégrant un design responsive, des optimisations SEO et des corrections de bugs. Ce projet met en valeur mon savoir-faire technique et ma capacité à présenter mes compétences efficacement en ligne.",
+    "github": "https://github.com/AlexandraGbrt/ArcaneAPI",
+    "details": "J’ai développé une API autour de l’univers de la série Arcane, en utilisant le langage Python et la base de données PostgreSQL. Ce projet m’a permis de découvrir le développement backend, notamment la structuration de données, la création d’endpoints RESTful et la gestion des interactions entre une API et une base de données.",
     "tools": [
-      { "name": "React", "icon": "react.png" },
-      { "name": "Vite", "icon": "vite.png" },
-      { "name": "MUI", "icon": "MUI.png" },
-      { "name": "SASS", "icon": "sass.png" },
-      { "name": "Git", "icon": "git.png" },
-      { "name": "figma", "icon": "figma.png" }
+      { "name": "Python", "icon": "python.png" },
+      { "name": "PostgreSQL", "icon": "post.png" },
+      { "name": "Git", "icon": "git.png" }
     ]
   },
   {
