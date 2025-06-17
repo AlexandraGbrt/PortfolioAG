@@ -28,7 +28,11 @@ const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
           </div>
           <div className="modal-actions">
             <a href={github} target="_blank">
-              GitHub du projet
+              <img
+                src="/icons/github-logo.png"
+                alt="GitHub"
+                className="logoGH"
+              />
             </a>
 
             <MyButton onClick={onClose}>Fermer</MyButton>

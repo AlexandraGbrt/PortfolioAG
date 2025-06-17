@@ -50,8 +50,8 @@
         }
 
         .tools img {
-            width: 24px;
-            height: 24px;
+            width: 34px;
+            height: 34px;
             object-fit: contain;
             user-select: none;
         }
@@ -61,6 +61,10 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: end;
+
+            .logoGH {
+                width: 50px;
+            }
 
             button {
                 transition: background-color 0.2s;
