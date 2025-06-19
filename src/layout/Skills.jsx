@@ -17,7 +17,11 @@ const Skills = () => {
 
         {skills.map((skill, i) => (
           <li key={i}>
-            <img src={`/icons/${skill.icon}`} alt={skill.name} width="24" />
+            <img
+              src={`${import.meta.env.BASE_URL}icons/${skill.icon}`}
+              alt={skill.name}
+              width="24"
+            />
           </li>
         ))}
       </ul>

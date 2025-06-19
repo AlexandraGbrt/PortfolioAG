@@ -18,7 +18,7 @@ const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
             {tools.map((tool, i) => (
               <img
                 key={i}
-                src={`/icons/${tool.icon}`}
+                src={`${import.meta.env.BASE_URL}icons/${tool.icon}`}
                 alt={tool.name}
                 title={tool.name}
                 width={24}

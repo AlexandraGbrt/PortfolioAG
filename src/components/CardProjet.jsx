@@ -16,7 +16,7 @@ const CardProjet = ({
       <div className="card-projet" onClick={() => setOpen(true)}>
         <div className="card-image-container">
           <img
-            src={cover}
+            src={`${import.meta.env.BASE_URL}${cover}`}
             alt={`Cover du projet ${title}`}
             className="card-image"
           />
