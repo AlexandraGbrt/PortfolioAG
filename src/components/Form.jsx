@@ -3,8 +3,8 @@ import MyButton from "../components/Button";
 
 const ContactForm = () => {
   return (
-    <div className="wrapper">
-      <form
+    <div>
+      {/* <form
         action="mailto:alexandra.gaubert95@gmail.com"
         method="POST"
         className="form"
@@ -15,7 +15,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             className="input"
-            placeholder="Votre nom"
+            placeholder="Votre nom" 
             required
           />
         </div>
@@ -40,7 +40,7 @@ const ContactForm = () => {
         </div>
 
         <MyButton type="submit">Envoyer</MyButton>
-      </form>
+      </form> */}
     </div>
   );
 };

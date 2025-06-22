@@ -29,7 +29,7 @@ const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
           <div className="modal-actions">
             <a href={github} target="_blank">
               <img
-                src="/icons/github-logo.png"
+                src="./icons/github-logo.png"
                 alt="GitHub"
                 className="logoGH"
               />
