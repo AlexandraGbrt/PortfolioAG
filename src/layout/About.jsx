@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about">
       <h1>Alexandra Gaubert, </h1>
-      <h2>Développeuse Web.</h2>
+      <h2>Intégratrice Web.</h2>
       <p>
         En formation chez OpenClassrooms, j’ai développé des compétences solides
         en HTML, CSS, JavaScript, React et Redux, ainsi que des connaissances en
