@@ -1,7 +1,15 @@
 import React from "react";
 import MyButton from "../components/Button";
 
-const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
+const Modal = ({
+  open,
+  onClose,
+  title,
+  details,
+  github,
+  tools = [],
+  images,
+}) => {
   if (!open) return null;
 
   return (
@@ -10,6 +18,11 @@ const Modal = ({ open, onClose, title, details, github, tools = [] }) => {
       <div className="modal-container">
         <div className="modal-content">
           <h3>{title}</h3>
+
+          <div className="modal-image">
+            <img src={`${import.meta.env.BASE_URL}${images}`} alt={title} />
+            {/* Chemin vers fichier statiques correct, ajout de : import.meta.env... */}
+          </div>
 
           <p>{details}</p>
 

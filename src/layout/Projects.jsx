@@ -6,9 +6,6 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2 id="title">Mes Projets</h2>
-      {/* <div className="memoji">
-        <img src="./icons/memoji.png"></img>
-      </div> */}
       <div className="projet">
         {projets.map((projet, index) => (
           <CardProjet
@@ -20,6 +17,7 @@ const Projects = () => {
             details={projet.details}
             tools={projet.tools}
             github={projet.github}
+            images={projet.images}
           />
         ))}
       </div>

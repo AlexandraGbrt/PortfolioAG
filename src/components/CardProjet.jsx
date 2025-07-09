@@ -8,6 +8,7 @@ const CardProjet = ({
   details,
   github,
   tools = [],
+  images,
 }) => {
   const [open, setOpen] = useState(false);
 
@@ -36,6 +37,7 @@ const CardProjet = ({
         details={details}
         tools={tools}
         github={github}
+        images={images}
       />
     </>
   );
