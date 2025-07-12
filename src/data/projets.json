@@ -2,7 +2,7 @@
   {
     "title": "API Arcane",
     "description": "Création d'une API",
-    "cover": "/logo/arcane.png",
+    "cover": "/logo/arcane.webp",
     "images": "",
     "github": "https://github.com/AlexandraGbrt/ArcaneAPI",
     "details": "J’ai développé une API autour de l’univers de la série Arcane, en utilisant le langage Python et la base de données PostgreSQL. Ce projet m’a permis de découvrir le développement backend, notamment la structuration de données, la création d’endpoints RESTful et la gestion des interactions entre une API et une base de données.",
@@ -15,8 +15,8 @@
   {
     "title": "Qwenta by Menu maker",
     "description": "Gestion de projet",
-    "cover": "/logo/logoQwenta.png",
-    "images": "/images/qwentaSite.png",
+    "cover": "/logo/logoQwenta.webp",
+    "images": "/images/qwentaSite.webp",
     "github": "",
     "details": "J’ai planifié le développement d’un site web en traduisant les besoins fonctionnels en spécifications techniques et en organisant le travail via un tableau Kanban sur Notion. J’ai aussi assuré une veille technologique et présenté la solution technique, développant ainsi mes compétences en gestion de projet.",
     "tools": [
@@ -29,7 +29,7 @@
   {
     "title": "ArgentBank",
     "description": "Application bancaire avec React",
-    "cover": "/logo/logoAB.png",
+    "cover": "/logo/logoAB.webp",
     "images": "/images/ArgentBank.webp",
     "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
     "details": "J’ai développé une application bancaire front-end avec React et Redux, intégrant des appels API REST documentés avec Swagger. Ce projet m’a permis de renforcer mes compétences en gestion d’état complexe et en communication entre client et serveur, indispensables pour concevoir des applications web performantes et évolutives.s",
@@ -45,7 +45,7 @@
   {
     "title": "724events",
     "description": "Débuggage du site d'une agence évènementielle ",
-    "cover": "/logo/724.png",
+    "cover": "/logo/724.webp",
     "images": "/images/724.webp",
     "github": "https://github.com/AlexandraGbrt/724Events",
     "details": "J’ai débogué et finalisé un site React one-page, en utilisant React Developer Tools, Yarn et Node.js. J’ai aussi rédigé un cahier de recette pour assurer la qualité avec des tests unitaires et fonctionnels, renforçant ainsi mes compétences en développement et assurance qualité.",
@@ -59,8 +59,8 @@
   {
     "title": "Nina Carducci",
     "description": "Référencement SEO",
-    "cover": "/logo/logoNina.png",
-    "images": "/images/ninaSite.png",
+    "cover": "/logo/logoNina.webp",
+    "images": "/images/ninaSite.webp",
     "github": "https://github.com/AlexandraGbrt/NinaCarducci",
     "details": "J’ai optimisé un site web en améliorant sa performance, son référencement naturel (SEO) et son accessibilité. Grâce à des audits approfondis et des recommandations ciblées, j’ai rendu le site plus rapide, accessible et mieux positionné sur les moteurs de recherche.",
     "tools": [
@@ -73,8 +73,8 @@
   {
     "title": "Kasa",
     "description": "Application de location immobilière avec React",
-    "cover": "/logo/kasa.png",
-    "images": "/images/kasaSite2.png",
+    "cover": "/logo/kasa.webp",
+    "images": "/images/kasaSite2.webp",
     "github": "https://github.com/AlexandraGbrt/ProjetKasa",
     "details": "J’ai développé une application front-end avec React et React Router, créant une expérience utilisateur fluide et dynamique. Ce projet m’a permis de consolider mes compétences en composants React, routage SPA et gestion de données, indispensables pour un développeur web moderne.",
     "tools": [
@@ -89,8 +89,8 @@
   {
     "title": "Sophie Bluel",
     "description": "Page web dynamique avec JavaScript",
-    "cover": "/logo/logoSophie.png",
-    "images": "/images/sophieSite.png",
+    "cover": "/logo/logoSophie.webp",
+    "images": "/images/sophieSite.webp",
     "github": "https://github.com/AlexandraGbrt/SophieBluel",
     "details": "J’ai conçu une page web dynamique en JavaScript, intégrant la gestion des événements utilisateurs et la communication avec une API. Ce projet m’a également permis de développer une page de connexion et une modale d’upload, renforçant mes compétences en développement front-end.",
     "tools": [
@@ -104,8 +104,8 @@
   {
     "title": "Oh my food",
     "description": "Interface mobile avec des animations CSS",
-    "cover": "/logo/logoOMF.png",
-    "images": "/images/ohmySite.png",
+    "cover": "/logo/logoOMF.webp",
+    "images": "/images/ohmySite.webp",
     "github": "https://github.com/AlexandraGbrt/ohmyfood",
     "details": "J’ai intégré une interface mobile-first pour une start-up, en utilisant Sass pour un CSS performant et en ajoutant des animations CSS pour améliorer l’expérience utilisateur. J’ai aussi utilisé Git et GitHub pour gérer le versioning du projet. Ce travail m’a permis de renforcer mes compétences en développement front-end moderne, responsive et collaboratif.",
     "tools": [
@@ -119,8 +119,8 @@
   {
     "title": "Booki",
     "description": "Page d'accueil avec HTML et CSS",
-    "cover": "/logo/booki.png",
-    "images": "/images/bookiSite.png",
+    "cover": "/logo/booki.webp",
+    "images": "/images/bookiSite.webp",
     "github": "",
     "details": "J’ai réalisé la page d’accueil d’une agence de voyage en intégrant les maquettes Figma sur mobile, tablette et desktop. Ce projet m’a permis de renforcer mes compétences en HTML et CSS, notamment en design responsive et création de composants sur mesure. Une étape clé pour maîtriser l’adaptation des interfaces web à tous les écrans.",
     "tools": [

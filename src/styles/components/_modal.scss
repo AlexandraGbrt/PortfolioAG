@@ -1,4 +1,5 @@
 @use '../variables' as *;
+@use '../mixins' as *;
 
 .modal-backdrop {
     position: fixed;
@@ -8,11 +9,9 @@
 }
 
 .modal-container {
+    @include display-flex(row, center, center);
     position: fixed;
     inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 1001;
 
     .modal-content {
@@ -26,12 +25,11 @@
         animation: fadeIn 0.2s ease-out;
 
         .modal-image {
+            @include display-flex(center, center);
             max-width: 500px;
             margin: auto;
             padding-bottom: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+
 
             img {
                 max-width: 500px;
@@ -57,11 +55,9 @@
         }
 
         .tools {
-            display: flex;
-            gap: 8px;
+            @include display-flex(row, center, center);
             flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            gap: 8px;
             max-width: 100%;
             margin: 20px auto;
         }
@@ -74,10 +70,7 @@
         }
 
         .modal-actions {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: end;
+            @include display-flex(row, space-between, flex-end);
 
             .logoGH {
                 width: 50px;

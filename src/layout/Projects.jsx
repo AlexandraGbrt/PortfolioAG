@@ -13,7 +13,7 @@ const Projects = () => {
             title={projet.title}
             description={projet.description}
             cover={projet.cover}
-            onClick={() => console.log(`Tu as cliqué sur ${projet.title}`)}
+            // onClick={() => console.log(`Clic sur ${projet.title}`)}
             details={projet.details}
             tools={projet.tools}
             github={projet.github}

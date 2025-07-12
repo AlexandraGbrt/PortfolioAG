@@ -1,36 +1,12 @@
+// Formulaire Contact
+@use '../mixins' as *;
+
 .wrapper {
+    @include display-flex(column, center, center);
+
     position: relative;
     width: 350px;
     height: 100px;
     border: 2px solid #00ffff;
     box-shadow: 0 0 50px 0 #00a6bc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    .form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .inp {
-            padding-bottom: 10px;
-            border-bottom: 2px solid #eee;
-        }
-
-        .input {
-            border: none;
-            outline: none;
-            background: none;
-            width: 200px;
-            margin-top: 40px;
-            // padding-right: 10px;
-            font-size: 15px;
-            color: white;
-
-        }
-    }
 }

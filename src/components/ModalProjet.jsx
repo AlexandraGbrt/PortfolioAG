@@ -21,7 +21,7 @@ const Modal = ({
 
           <div className="modal-image">
             <img src={`${import.meta.env.BASE_URL}${images}`} alt={title} />
-            {/* Chemin vers fichier statiques correct, ajout de : import.meta.env... */}
+            {/* Chemin vers fichier statique correct, ajout de : import.meta.env... */}
           </div>
 
           <p>{details}</p>
