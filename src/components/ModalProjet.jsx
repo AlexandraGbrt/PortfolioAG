@@ -28,17 +28,20 @@ const Modal = ({
 
           <div className="tools">
             <p>Compétences utilisées :</p>
-            {tools.map((tool, i) => (
-              <img
-                key={i}
-                src={`${import.meta.env.BASE_URL}icons/${tool.icon}`}
-                alt={tool.name}
-                title={tool.name}
-                width={24}
-                height={24}
-              />
-            ))}
+            <div className="tools-icons">
+              {tools.map((tool, i) => (
+                <img
+                  key={i}
+                  src={`${import.meta.env.BASE_URL}icons/${tool.icon}`}
+                  alt={tool.name}
+                  title={tool.name}
+                  width={24}
+                  height={24}
+                />
+              ))}
+            </div>
           </div>
+
           <div className="modal-actions">
             <a href={github} target="_blank">
               <img
