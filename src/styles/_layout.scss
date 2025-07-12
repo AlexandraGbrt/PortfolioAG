@@ -120,11 +120,14 @@ section {
     }
 
     ul {
+        display: flex;
+        flex-wrap: wrap;
 
         li img {
             width: 40px;
         }
     }
+
 
 
 }
@@ -139,8 +142,6 @@ section {
     padding-top: 0;
 
     h2 {
-        font-size: 40px;
-        // padding-right: 30px;
         margin-bottom: 10px;
     }
 
