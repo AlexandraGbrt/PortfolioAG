@@ -20,6 +20,8 @@
         border-radius: 12px;
         max-width: 800px;
         width: 90%;
+        max-height: 90vh;
+        overflow-y: auto;
         padding: 24px;
         box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
         animation: fadeIn 0.2s ease-out;
@@ -83,6 +85,12 @@
                     background-color: #000;
                 }
             }
+        }
+
+        @media (max-width: 480px) {
+            width: 90%;
+            padding: 14px;
+            max-height: 80vh;
         }
     }
 }

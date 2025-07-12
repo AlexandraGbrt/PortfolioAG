@@ -3,7 +3,7 @@
     "title": "API Arcane",
     "description": "Création d'une API",
     "cover": "/logo/arcane.webp",
-    "images": "",
+    "images": "/images/arcane.webp",
     "github": "https://github.com/AlexandraGbrt/ArcaneAPI",
     "details": "J’ai développé une API autour de l’univers de la série Arcane, en utilisant le langage Python et la base de données PostgreSQL. Ce projet m’a permis de découvrir le développement backend, notamment la structuration de données, la création d’endpoints RESTful et la gestion des interactions entre une API et une base de données.",
     "tools": [
