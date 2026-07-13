@@ -32,7 +32,7 @@
     "cover": "/logo/logoAB.webp",
     "images": "/images/ArgentBank.webp",
     "github": "https://github.com/AlexandraGbrt/ArgentBank-Frontend",
-    "details": "J’ai développé une application bancaire front-end avec React et Redux, intégrant des appels API REST documentés avec Swagger. Ce projet m’a permis de renforcer mes compétences en gestion d’état complexe et en communication entre client et serveur, indispensables pour concevoir des applications web performantes et évolutives.s",
+    "details": "J’ai développé une application bancaire front-end avec React et Redux, intégrant des appels API REST documentés avec Swagger. Ce projet m’a permis de renforcer mes compétences en gestion d’état complexe et en communication entre client et serveur, indispensables pour concevoir des applications web performantes et évolutives.",
     "tools": [
       { "name": "React", "icon": "react.png" },
       { "name": "Reactrouter", "icon": "reactrouter.png" },

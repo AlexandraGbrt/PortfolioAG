@@ -1,5 +1,6 @@
 import Header from "./layout/Header";
 import About from "./layout/About";
+import Vitrines from "./layout/Vitrines";
 import Projects from "./layout/Projects";
 import Skills from "./layout/Skills";
 import Contact from "./layout/Contact";
@@ -10,6 +11,7 @@ const App = () => {
     <>
       <Header />
       <About />
+      <Vitrines />
       <Projects />
       <Skills />
       <Contact />

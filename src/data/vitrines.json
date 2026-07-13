@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Cosy Senlis",
+    "description": "Site vitrine · Brunch & Coffee",
+    "cover": "/vitrines/cosy.png",
+    "images": "/vitrines/cosy.png",
+    "github": "",
+    "details": "Site vitrine créé pour un café-brunch de Senlis. Identité visuelle marron et or inspirée de la façade réelle du commerce. Ambiance chaleureuse et premium, avec sections hero animé, carte, avis Google et infos pratiques.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Lucette Chantilly",
+    "description": "Site vitrine · Salon de thé & Coffee Shop",
+    "cover": "/vitrines/lucette.png",
+    "images": "/vitrines/lucette.png",
+    "github": "",
+    "details": "Site vitrine pour un salon de thé à Chantilly. Layout asymétrique hero gauche/droite, identité vert sauge pastel et touches pêche. Badges kids/pet friendly mis en valeur, section brunch sur réservation avec appel à l'action.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Alma Chantilly",
+    "description": "Site vitrine · Café restaurant franco-portugais",
+    "cover": "/vitrines/alma.png",
+    "images": "/vitrines/alma.png",
+    "github": "",
+    "details": "Site vitrine pour un café-restaurant franco-portugais. Identité bleu cobalt et or façon azulejos portugais, motifs géométriques répétés. Section terrasse jardin, concerts et salle privatisable, drapeaux français/portugais dans le hero.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Capo Plaza",
+    "description": "Refonte · Restaurant italien",
+    "cover": "/vitrines/capoplaza.png",
+    "images": "/vitrines/capoplaza.png",
+    "github": "",
+    "details": "Refonte du site d'un restaurant italien à Lamorlaye. Conservation et sublimation du motif léopard rose signature du commerce, intégré en base64 directement dans le HTML. Ambiance premium tout en restant fidèle à l'identité forte du client.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Élixir Académie",
+    "description": "Plateforme de formation · Extensions capillaires",
+    "cover": "/vitrines/elixir.png",
+    "images": "/vitrines/elixir.png",
+    "github": "",
+    "details": "Site de vente pour une plateforme de formation sur les extensions capillaires. Tunnel de conversion complet : module gratuit → modules individuels (39€) → pack (129€). Intégration Gumroad, tableau comparatif des techniques, FAQ accordéon, témoignages, section module 5 Butterfly Weft avec anatomie SVG.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" },
+      { "name": "JavaScript", "icon": "js.png" }
+    ]
+  },
+  {
+    "title": "Velha",
+    "description": "Site vitrine · Soins énergétiques à distance",
+    "cover": "/vitrines/velha.png",
+    "images": "/vitrines/velhasoin.png",
+    "github": "",
+    "details": "Site pour une praticienne Reiki proposant des soins énergétiques à distance. Univers poétique et minimaliste, copywriting très travaillé, 4 soins thématiques (Feu, Eau, Terre, Éther), bibliothèque de playlists chamaniques. Identité visuelle sobre et puissante, branding fort par la narration.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Porte-à-Porte",
+    "description": "Site vitrine · Contrôle technique à domicile",
+    "cover": "/vitrines/ct.png",
+    "images": "/vitrines/ct1.png",
+    "github": "",
+    "details": "Site de service pour un contrôle technique automobile avec récupération et restitution à domicile. Tunnel de conversion B2C et B2B, tableau de tarifs dégressifs pour professionnels (garages, flottes), section témoignages, parcours en 3 étapes. Site orienté conversion avec arguments clés bien hiérarchisés.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  },
+  {
+    "title": "Conciergerie du Valois",
+    "description": "Site vitrine · Conciergerie pour gîtes",
+    "cover": "/vitrines/conciergerie.png",
+    "images": "/vitrines/conciergerie.png",
+    "github": "",
+    "details": "Site vitrine pour une conciergerie haut de gamme dédiée aux gîtes et chambres d'hôtes sur Chantilly, Senlis et Lamorlaye. Univers élégant et sobre, identité locale forte, formulaire de contact intégré. Déployé sur Netlify. Copywriting soigné autour de l'art de recevoir.",
+    "tools": [
+      { "name": "HTML", "icon": "html.png" },
+      { "name": "CSS", "icon": "css.png" }
+    ]
+  }
+]

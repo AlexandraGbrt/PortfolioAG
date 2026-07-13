@@ -1,13 +1,10 @@
 import React from "react";
 import { Button } from "@mui/material";
-// import { colorStart, colorEnd, colorTxt } from "../styles/variables";
-// import { color1, color2, color3, color4 } from "../styles/variables";
 import { gradientBg } from "../styles/variables";
 
 const MyButton = ({ children, href, type = "button", onClick, ...props }) => {
   const buttonStyle = {
     background: gradientBg,
-    // `linear-gradient(to right, ${color1}, ${color2}, ${color3}, ${color4})`,
     color: `black`,
     borderRadius: "40px",
     padding: "8px 26px",
@@ -16,9 +13,6 @@ const MyButton = ({ children, href, type = "button", onClick, ...props }) => {
     marginTop: "20px",
     textTransform: "none",
     cursor: "pointer",
-    // "&:hover": {
-    //   background: `linear-gradient(to right, ${colorEnd}, ${colorStart})`,
-    // },
   };
 
   return href ? (
@@ -45,3 +39,10 @@ const MyButton = ({ children, href, type = "button", onClick, ...props }) => {
 };
 
 export default MyButton;
+
+// import { colorStart, colorEnd, colorTxt } from "../styles/variables";
+// import { color1, color2, color3, color4 } from "../styles/variables";
+// `linear-gradient(to right, ${color1}, ${color2}, ${color3}, ${color4})`,
+// "&:hover": {
+//   background: `linear-gradient(to right, ${colorEnd}, ${colorStart})`,
+// },

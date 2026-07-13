@@ -14,7 +14,6 @@ const About = () => {
         Curieuse et motivée, je continue d’explorer de nouvelles technologies
         pour évoluer vers le développement full stack.
       </p>
-      {/* <button id="btn">Contact</button> */}
       <MyButton href="#contact">Contact</MyButton>
     </section>
   );
